@@ -1,0 +1,11 @@
+{
+  "name": "typescript-pratices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:matheus-alpe/typescript-pratices.git",
+  "author": "Matheus Alves Pereira <matttalves@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
