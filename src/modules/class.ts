@@ -1,4 +1,5 @@
 import { printWithType } from '../utils'
+import { Age, Date, Document, Player, Constants } from './shared'
 
 class Person {
   protected name: string;
@@ -44,3 +45,5 @@ class FootballPlayer extends Person {
 
 const marta = new FootballPlayer('Marta', 36, 'Orlando Pride')
 printWithType({ marta: marta.getPlayerClub() })
+
+printWithType({ name: `${Constants.NAME} tem ${Constants.AGE} anos` })
