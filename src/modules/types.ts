@@ -1,4 +1,5 @@
 import { printWithType } from '../utils'
+import { PlayerStatus } from './enums'
 
 let age: string | number = 18
 printWithType({age})
@@ -20,8 +21,10 @@ printWithType({isMarriage})
 
 export type Player = {
   name: string
-  height: number
-  weight: number
+  height?: number
+  weight?: number
+  age?: number
+  status?: PlayerStatus
 }
 
 const player: Player = {

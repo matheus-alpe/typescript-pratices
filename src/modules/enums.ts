@@ -21,3 +21,9 @@ enum StateHeterogeneous {
   Tied = 2
 }
 printWithType({ StateHeterogeneous: [StateHeterogeneous.Losing, StateHeterogeneous.Tied] })
+
+export enum PlayerStatus {
+  available = 'available',
+  injured = 'injured',
+  vacation = 'vacation'
+}
